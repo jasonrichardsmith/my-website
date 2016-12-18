@@ -7,18 +7,24 @@ html {
 }
 
 body {
-	background-color: #fdfdfd;
+	background-color: #2b3e50;
 	height: 100%;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.5em;
+	color: white;
 }
 
-#green-terminal {
-	color: #00ff00;
+.navbar-color {
+	background-color: #4e5d6c;
+	border: none;
+}
+
+.navbar-color .navbar-link, .navbar-default .navbar-nav>li>a {
+	color: #ebebeb;
 }
 
 .font-header {
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Lato';
 }
 
 .font-paragraph {
@@ -26,26 +32,29 @@ body {
 }
 
 nav {
-	font-size: 1.5em;
+	font-size: 1em;
 }
 
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Concert One', cursive;
+	font-family: 'Lato';
 }
 
 #user-name {
-	font-size: 5em;
+	font-size: 1em;
+	color: #ebebeb;
+}
+
+.name-and-description {
+	background-color: #4e5d6c;
 }
 
 .user-description {
-	border-style: solid;
-	border-width: 5px;
-	border-color: #292929;
 	margin-top: 20px;
 	margin-bottom: 1em;
 	padding: 15px;
-	font-size: initial;
+	font-size: 2em;
+	text-align: center;
 }
 
 .user-profile {
@@ -57,11 +66,12 @@ h1,h2,h3,h4,h5,h6 {
 	border-width: 5px;
 	border-color: #292929;
 	margin-top: 20px;
+	margin-bottom: 3em;
 }
 
 i {
 	margin: 10px 20px 10px 20px;
-	color: #333;
+	color: white;
 }
 
 .post-link {
@@ -114,7 +124,6 @@ i {
 }
 
 .footer {
-	background-color: #F5F5F5;
 	display: block;
 	width: 100%;
 	padding: 10px;

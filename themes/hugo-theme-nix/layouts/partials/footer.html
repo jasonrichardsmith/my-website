@@ -1,2 +1,22 @@
 <footer class="footer text-center">
+				<div class="col-xs-12 user-social text-center">
+					{{ with .Site.Params.TwitterID }}
+					<a href="https://twitter.com/{{.}}" title="Twitter"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+					{{ end }}
+					{{ with .Site.Params.GoogleplusID }}
+					<a href="https://plus.google.com/{{.}}/about" title="Google+"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+					{{ end }}
+					{{ with .Site.Params.FacebookID }}
+					<a href="https://facebook.com/{{.}}" title="Facebook"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+					{{ end }}
+					{{ with .Site.Params.GithubID }}
+					<a href="https://github.com/{{.}}" title="GitHub"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+					{{ end }}
+					{{ with .Site.Params.LinkedInID }}
+					<a href="http://linkedin.com/in/{{.}}" title="LinkedIn"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+					{{ end }}
+					{{ with .Site.Params.Email }}
+					<a href="mailto:{{.}}" title="Email"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+					{{ end }}
+				</div>
 </footer>

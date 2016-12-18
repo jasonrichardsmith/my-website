@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> {{ .Title }} &middot; {{ .Site.Title }} </title>
+
+        {{ partial "head.html" . }}
+    </head>
+
+    <body>
+        {{ partial "header.html" . }}
+        <div class="container wrapper">
+            <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+            <div class="post-content">
+                {{ .Content }}
+            </div>
+            <div class="push"></div>
+        </div>
+        {{ partial "footer.html" . }}
+    </body>

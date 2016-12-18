@@ -1,4 +1,4 @@
-baseurl = "http://hugojrssite.s3-website-us-west-2.amazonaws.com//"
+baseurl = "http://hugojrssite.s3-website-us-west-2.amazonaws.com"
 title = "Jason Richard Smith"
 theme = "hugo-theme-nix"
 [params]
@@ -8,11 +8,23 @@ theme = "hugo-theme-nix"
   Name = "Jason Richard Smith"
   HeaderUsername = "root"
   HeaderHostname = "jasonrichardsmith.org"
-  About = "info_about_you"
+  About = "Engineer"
   ProfilePicture = "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/07a/24f/0c1356d.jpg"
   GoogleAnalytics = "your_google_analytics_id"
 [menu]
   [[menu.header]]
-    name = "posts"
+    name = "Skills"
     weight = 0
-    url = "/posts"
+    url = "/skills"
+  [[menu.header]]
+    name = "Blog"
+    weight = 1
+    url = "/blog"
+  [[menu.header]]
+    name = "Work"
+    weight = 2
+    url = "/work"
+  [[menu.header]]
+    name = "Projects"
+    weight = 3
+    url = "/projects"
