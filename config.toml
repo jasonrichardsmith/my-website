@@ -2,7 +2,7 @@ baseurl = "http://hugo.spf13.com/"
 title = "Hugo Themes"
 theme = "hugo-theme-nix"
 [params]
-  GithubID = "your_github"
+  GithubID = "jasonrichardsmith"
   TwitterID = "your_twitter"
   LinkedInID = "your_linkedin"
   GoogleplusID = "your_googleplus"
