@@ -1,0 +1,21 @@
+baseurl = "http://hugo.spf13.com/"
+title = "Hugo Themes"
+theme = "hugo-theme-nix"
+[params]
+  GithubID = "your_github"
+  TwitterID = "your_twitter"
+  LinkedInID = "your_linkedin"
+  GoogleplusID = "your_googleplus"
+  FacebookID = "your_facebook"
+  Name = "Jason Richard Smith"
+  HeaderUsername = "username"
+  HeaderHostname = "hostname"
+  Email = "your_email"
+  About = "info_about_you"
+  ProfilePicture = "profile_picture_url"
+  GoogleAnalytics = "your_google_analytics_id"
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "/posts"
