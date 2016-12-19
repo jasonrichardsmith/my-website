@@ -1,5 +1,5 @@
 +++
-url = "skills"
+url = "/skills"
 +++
 ## Current interests
 - Ansible
