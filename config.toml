@@ -2,6 +2,7 @@ baseurl = "http://jasonrichardsmith.org"
 title = "Jason Richard Smith"
 theme = "hugo-theme-nix"
 disqusShortname = "jasonrichardsmithorg"
+googleAnalytics = "UA-18788734-3"
 [params]
   GithubID = "jasonrichardsmith"
   TwitterID = "@jasonrichardsmi"
