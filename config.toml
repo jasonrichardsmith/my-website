@@ -1,4 +1,4 @@
-baseurl = "http://hugojrssite.s3-website-us-west-2.amazonaws.com"
+baseurl = "https://jasonrichardsmith.org"
 title = "Jason Richard Smith"
 theme = "hugo-theme-nix"
 [params]
