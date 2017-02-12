@@ -1,4 +1,4 @@
-baseurl = "https://jasonrichardsmith.org"
+baseurl = "http://jasonrichardsmith.org"
 title = "Jason Richard Smith"
 theme = "hugo-theme-nix"
 [params]
