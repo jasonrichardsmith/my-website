@@ -13,18 +13,6 @@ theme = "hugo-theme-nix"
   GoogleAnalytics = "your_google_analytics_id"
 [menu]
   [[menu.header]]
-    name = "Skills"
-    weight = 0
-    url = "/skills"
-  [[menu.header]]
     name = "Blog"
     weight = 1
     url = "/blog"
-  [[menu.header]]
-    name = "Work"
-    weight = 2
-    url = "/work"
-  [[menu.header]]
-    name = "Projects"
-    weight = 3
-    url = "/projects"
