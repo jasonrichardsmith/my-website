@@ -23,6 +23,10 @@ body {
 	color: #ebebeb;
 }
 
+h1 a {
+	color: white;
+}
+
 .font-header {
 	font-family: 'Lato';
 }
@@ -83,11 +87,14 @@ i {
 }
 
 .post-header {
-	background-color: #F5F5F5;
 	overflow: hidden;
 	padding: 0 5px 0 5px;
 }
 
+.post-header a{
+	color: white;
+
+}
 .post-summary, .post-content{
 	clear: both;
 }

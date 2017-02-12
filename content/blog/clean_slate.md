@@ -1,7 +1,7 @@
 +++
 date = "2017-02-12T12:25:20+01:00"
 title = "Clean Slate"
-
+draft = false
 +++
 
 I finally moved my personal site to Hugo.  After much consideration, I decided not to migrate any of my old blog posts.
