@@ -8,6 +8,5 @@ script:
   - hugo
 
 after_success:
-  - pip install --user awscli
-  - export PATH=$PATH:$HOME/.local/bin
+  - pip install awscli
   - aws s3 sync public s3://jasonrichardsmith.org/
