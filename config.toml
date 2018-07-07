@@ -11,7 +11,7 @@ googleAnalytics = "UA-18788734-3"
   HeaderUsername = "root"
   HeaderHostname = "jasonrichardsmith.org"
   About = "Engineer"
-  ProfilePicture = "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/07a/24f/0c1356d.jpg"
+  ProfilePicture = "profile.jpg"
   GoogleAnalytics = "your_google_analytics_id"
 [menu]
   [[menu.header]]
