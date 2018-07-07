@@ -8,5 +8,4 @@ script:
   - hugo
 
 after_success:
-  - pip install awscli
-  - aws s3 sync public s3://jasonrichardsmith.org/
+  - test $TRAVIS_BRANCH = "master" && test $TRAVIS_PULL_REQUEST = "false" && pip install awscli && aws s3 sync public s3://jasonrichardsmith.org/
